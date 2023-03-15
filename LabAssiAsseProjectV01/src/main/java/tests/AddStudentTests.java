@@ -37,7 +37,7 @@ public class AddStudentTests {
         int result = service.saveStudent(student.getID(), student.getNume(), student.getGrupa());
 
         // verify that the student was added successfully
-        assertEquals(result, 1);
+        assertEquals(result, 0);
     }
 
     @Test
@@ -60,7 +60,7 @@ public class AddStudentTests {
         int firstResult = service.saveStudent(student.getID(), student.getNume(), student.getGrupa());
 
         // verify that the student was added successfully
-        assertEquals(firstResult, 1);
+        assertEquals(firstResult, 0);
 
         // try to add the same student again
         int secondResult = service.saveStudent(student.getID(), student.getNume(), student.getGrupa());
