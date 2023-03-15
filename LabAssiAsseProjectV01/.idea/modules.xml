@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MonitorizareTemeLaboratorV01.iml" filepath="$PROJECT_DIR$/MonitorizareTemeLaboratorV01.iml" />
+    </modules>
+  </component>
+
+  <!-- https://mvnrepository.com/artifact/junit/junit -->
+  <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    <scope>test</scope>
+  </dependency>
+
+</project>
